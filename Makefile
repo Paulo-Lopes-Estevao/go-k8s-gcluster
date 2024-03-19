@@ -1,5 +1,5 @@
 KUBECONFIG="./kubeconfig.yaml"
-POD_NAME="goserver-549d7ccccd-jvxxj"
+POD_NAME="goserver-549d7ccccd-jcpql"
 
 apply_resource:
 	kubectl apply -f k8s/deployment.yaml -f k8s/service.yaml -f k8s/ingress.yaml --kubeconfig=${KUBECONFIG}
