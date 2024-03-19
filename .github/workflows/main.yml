@@ -39,4 +39,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ github.repository }}:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/palindrome-api:latest
